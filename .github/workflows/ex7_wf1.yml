@@ -1,7 +1,7 @@
 name: ex7_wf1
-    on: [push]
-    jobs:
-      check-bats-version:
+on: [push]
+jobs:
+    check-bats-version:
         runs-on: ubuntu-latest
         steps:
           - uses: actions/checkout@v3
